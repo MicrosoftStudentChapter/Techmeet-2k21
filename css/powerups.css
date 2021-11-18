@@ -1,0 +1,373 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.slide-container {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.wrapper {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.wrapper:focus {
+    outline: 0;
+}
+
+.clash-card {
+    background: white;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 8%;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    z-index: 3;
+}
+
+.clash-card__image {
+    position: relative;
+    height: 12em;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.clash-card__image--barbarian {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");
+}
+
+.barbarianimg {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    top: -75px;
+    left: -70px;
+}
+
+.clash-card__image--archer {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer-bg.jpg");
+}
+
+.archerimg {
+    width: 350px;
+    height: 280px;
+    position: absolute;
+    top: -50px;
+    left: -27px;
+}
+
+.clash-card__image--giant {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant-bg.jpg");
+}
+.giantimg {
+    width: 320px;
+    height: 280px;
+    position: absolute;
+    top: -50px;
+    left: -25px;
+}
+
+.clash-card__image--goblin {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin-bg.jpg");
+}
+.goblinimg {
+    width: 350px;
+    position: absolute;
+    top: -40px;
+    left: -37px;
+}
+
+.clash-card__image--wizard {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+}
+.wizardimg {
+    width: 345px;
+    position: absolute;
+    top: -28px;
+    left: -10px;
+}
+
+.clash-card__level {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.clash-card__level--barbarian {
+    color: #ec9b3b;
+}
+
+.clash-card__level--archer {
+    color: #ee5487;
+}
+
+.clash-card__level--giant {
+    color: #f6901a;
+}
+
+.clash-card__level--goblin {
+    color: #82bb30;
+}
+
+.clash-card__level--wizard {
+    color: #4facff;
+}
+
+.clash-card__unit-name {
+    font-size: 1.9em;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.clash-card__unit-description {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+    padding-top: 3%;
+}
+
+.clash-card__unit-stats--barbarian {
+    background: #ec9b3b;
+}
+
+.clash-card__unit-stats--barbarian .one-third {
+    border-right: 0px solid #bd7c2f;
+}
+
+.clash-card__unit-stats--archer {
+    background: #ee5487;
+}
+
+.clash-card__unit-stats--archer .one-third {
+    border-right: 0px solid #ee5487;
+}
+
+.clash-card__unit-stats--giant {
+    background: #f6901a;
+}
+
+.clash-card__unit-stats--barbarian .one-third {
+    border-right: 0px solid #bd7c2f;
+}
+
+.clash-card__unit-stats--goblin {
+    background: #82bb30;
+}
+
+.clash-card__unit-stats--goblin .one-third {
+    border-right: 1px solid darken(#82bb30, 6%);
+}
+
+.clash-card__unit-stats--wizard {
+    background: #4facff;
+}
+
+.clash-card__unit-stats--wizard .one-third {
+    border-right: 1px solid darken(#4facff, 6%);
+}
+
+.clash-card__unit-stats {
+    color: white;
+    font-weight: 700;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.clash-card__unit-stats .one-third {
+    width: 33%;
+    float: left;
+    padding: 3% 1%;
+}
+
+.stat {
+    position: relative;
+    font-size: 1.6em;
+}
+
+.stat-value {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.no-border {
+    border-right: none;
+}
+
+.clash-card__unit-description {
+    padding-top: 5%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.slick-prev {
+    left: 100px;
+    z-index: 2;
+}
+
+.slick-next {
+    right: 100px;
+    z-index: 2;
+}
+@media screen and (max-width: 550px) {
+    .clash-card {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .clash-card {
+        margin-left: 13%;
+    }
+}
+@media screen and (max-width: 390px) and (min-width: 330px) {
+    .wrapper {
+        margin-left: 2% !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .wrapper {
+        margin-left: 5%;
+    }
+    .clash-card {
+        margin-left: 10%;
+        height: 26em;
+    }
+    .clash-card__unit-name {
+        font-size: 1.5em;
+    }
+    .clash-card__unit-description {
+        font-size: 0.7em;
+    }
+    .clash-card__unit-description,
+    .clash-card__unit-name {
+        padding-top: -5%;
+        margin-top: -5%;
+    }
+    .one-third {
+        font-size: 1.3em;
+        height: 5em;
+        width: 1em;
+    }
+    .stat {
+        font-size: 0.7em;
+    }
+    .clash-card.barbarian,
+    .clash-card.archer,
+    .clash-card.wizard,
+    .clash-card.goblin,
+    .clash-card.giant {
+        height: 25em;
+        width: 16em;
+        align-items: center;
+    }
+
+    .barbarianimg,
+    .archerimg,
+    .wizardimg,
+    .goblinimg,
+    .giantimg {
+        top: -20%;
+        left: -20%;
+        height: 15em;
+        width: 20em;
+    }
+    .clash-card__image--barbarian,
+    .clash-card__image--archer,
+    .clash-card__image--goblin,
+    .clash-card__image--giant,
+    .clash-card__image--wizard {
+        height: 11rem;
+        width: 16rem;
+    }
+}
+.unotitle {
+    font-size: 0.8em;
+}
+
+.unodscp {
+    font-size: 0.655em;
+}
+
+@media screen and (max-width: 330px) {
+    .wrapper {
+        margin-left: -2.5%;
+    }
+}
+@media screen and (max-width: 280px) {
+    .wrapper {
+        margin-left: -5% !important;
+    }
+    .barbarianimg {
+        left: -15%;
+    }
+}
+
+#faq {
+    margin-top: 2% !important;
+}
+.one-third .no-border {
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+#slider2 {
+    overflow: hidden;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider2 figure {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    10% {
+        left: 0;
+    }
+    20% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}

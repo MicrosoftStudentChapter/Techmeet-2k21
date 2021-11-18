@@ -1,0 +1,450 @@
+.cta > span {
+    margin-right: 15px;
+}
+
+#about_hack > h1 {
+    margin-left: 15px;
+}
+#video > img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+    stop-opacity: 0;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+    stop-opacity: 0;
+}
+
+#sponsor > div {
+    background-color: #0c253b;
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.cta > span {
+    margin-right: 15px;
+}
+
+#about_hack > h1 {
+    margin-left: 15px;
+}
+
+#video > img {
+    width: 100vw;
+    height: 100vh;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+    stop-opacity: 0;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+    stop-opacity: 0;
+}
+
+#sponsor > div {
+    background-color: #0c253b;
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.cta > span {
+    margin-right: 15px;
+}
+
+#about_hack > h1 {
+    margin-left: 15px;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+    stop-opacity: 0;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+}
+
+#SVGID_1_ > stop {
+    stop-color: #ffffff;
+    stop-opacity: 0;
+}
+
+#sponsor > div {
+    background-color: #0c253b;
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+
+.socials > a {
+    color: white;
+}
+#tagb {
+    font-weight: bold;
+}
+
+#timer {
+    font-weight: bold;
+}
+
+#arrow {
+    margin-left: 50px;
+}
+
+#about {
+    padding-top: 20px;
+}
+
+#divsponsor {
+    color: white;
+}
+
+#divsponsor {
+    color: white;
+}
+
+#divsponsor {
+    color: white;
+}
+
+#divsponsor {
+    color: white;
+}
+
+#divsponsor {
+    color: white;
+}
+
+#divsponsor {
+    color: white;
+}
+
+#divsponsor {
+    color: white;
+}
+
+#frontlogo {
+    margin-bottom: 30px;
+}
+
+.navbar-toggler {
+    background: #fff;
+}
+
+.electrothontitle {
+    white-space: nowrap;
+    font-size: 55px;
+    background: -webkit-linear-gradient(#eee, #60989a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 0px 2px #000000);
+}
+
+@media screen and (max-width: 600px) {
+    .electrothontitle {
+        white-space: normal;
+    }
+}
+
+.cta {
+    height: 20%;
+    letter-spacing: 1px !important;
+}
+
+.name {
+    color: gold;
+}
+
+.subject {
+    color: gold;
+}
+
+.footer_title {
+    font-size: 1.6em;
+    font-weight: 800;
+    text-align: left;
+}
+
+.footer_content {
+    text-align: left;
+    text-align: justify;
+}
+
+a {
+    color: #007bff;
+}
+
+hr {
+    border-top: 1px dashed white;
+}
+
+.socials {
+    padding: 2%;
+    display: inline;
+    height: 300px;
+    width: 300px;
+}
+
+#social {
+    justify-content: start;
+    text-align: left;
+    padding-left: 0;
+}
+.section {
+    min-height: 100vh;
+}
+.titlespon img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+@media screen and (max-width: 5000px) and (min-width: 1028px) {
+    .section .context {
+        margin-top: 10%;
+        /* width: 35%; */
+        text-align: center;
+    }
+    .title.context .electrothontitle {
+        font-size: 100px;
+    }
+    .about p {
+        font-size: 25px;
+    }
+    #tagb {
+        font-size: 35px;
+    }
+    .cta {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .icons {
+        visibility: hidden;
+    }
+}
+@media screen, (max-width: 433px) and (min-width: 280px) {
+    #logo {
+        margin-left: 0;
+    }
+}
+@media screen, (max-width: 576px) and (min-width: 280px) {
+   
+}
+@media screen and (max-height: 601px) {
+    .video-1 {
+        height: 50vh;
+    }
+}
+/* ipad pro */
+
+@media screen and (max-width: 1024px) and (min-width: 1024px) {
+    .title.context .electrothontitle {
+        font-size: 700%;
+        max-width: 100%;
+    }
+    #tagb {
+        font-size: 35px;
+    }
+    .cta {
+        font-size: 30px;
+    }
+}
+
+@media screen and (width: 1366px) and (max-height: 1024px) {
+    .electrothontitle {
+        font-size: 700%;
+    }
+    #tagb {
+        font-size: 204%;
+    }
+}
+
+/* ipad */
+@media screen and (width: 768px) and (max-height: 1024px) {
+    .electrothontitle {
+        font-size: 500%;
+    }
+    #tagb {
+        font-size: 204%;
+    }
+    .columnb {
+        padding-top: 22%;
+    }
+    .cta {
+        font-size: 25px;
+    }
+    .columna {
+        padding-top: 15% !important;
+    }
+}
+
+@media screen and (width: 1024px) and (max-height: 768px) {
+    .electrothontitle {
+        font-size: 500%;
+    }
+    #tagb {
+        font-size: 204%;
+    }
+    .columnb {
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 8px !important;
+    }
+    .about p {
+        font-size: 25px;
+    }
+}
+@media screen and (width: 360px) {
+    .cta {
+        font-size: 20px;
+    }
+}
+/* @media screen and (width: 411px)
+{
+    .cta{
+        font-size: 0px;
+    }
+} */
+@media screen and (width: 280px) {
+    .about p {
+        font-size: 100% !important;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 420px) {
+    .cta {
+        font-size: 20px;
+    }
+}
+
+@media screen and (height: 653px) and (width: 280px) {
+    .electrothontitle {
+        font-size: 12px !important;
+    }
+    .event-hack {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1129px) and (min-width: 1028px) {
+    .electrothontitle {
+        font-size: 4em !important;
+    }
+}
+@media screen and (max-width: 1136px) and (min-width: 1055px) {
+    .electrothontitle {
+        font-size: 4em !important;
+    }
+}
+
+@media screen and (width: 1137px) {
+    .electrothontitle {
+        font-size: 4em !important;
+    }
+}
+
+@media screen and (width: 280px) and (height: 653px) {
+    .electrothontitle {
+        font-size: 4em !important;
+    }
+}
+
+@media screen and (width: 568px) and (height: 320px) {
+    .electrothontitle {
+        font-size: 3em !important;
+    }
+    #timer {
+        padding-top: -8% !important;
+        margin-top: -7%;
+    }
+}
+
+@media screen and (width: 653px) and (height: 280px) {
+    .electrothontitle {
+        font-size: 3em !important;
+        margin-top: 20%;
+    }
+    #timer {
+        padding-top: -10% !important;
+        margin-top: -10%;
+    }
+}
+
+@media screen and (height: 653px) and (width: 280px) {
+    .electrothontitle {
+        font-size: 3em !important;
+    }
+}
